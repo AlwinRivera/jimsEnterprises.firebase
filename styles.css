@@ -1,0 +1,163 @@
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);border-radius:10px;background-color:#efefef;}
+::-webkit-scrollbar{width:5px;background-color:#efefef;}
+::-webkit-scrollbar-thumb{border-radius:10px;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-color:#c0c0c0;}
+html,body{height:100%;margin:0;}
+body{font:400 15px Lato, sans-serif;line-height:1.8;color:#818181;}
+h1{margin-left:auto;margin-right:auto;border-radius:20px;background-color:rgba(69, 120, 9, 0.8);margin-top:1.2em;}
+h2{font-size:24px;text-transform:uppercase;color:#303030;font-weight:600;margin-bottom:30px;}
+h4{font-size:19px;text-transform:1.375em;color:#303030;font-weight:400;margin-bottom:30px;}
+.row{margin-left:0;margin-right:0;}
+.container-fluid{padding:60px 30px;}
+.modal .container-fluid{padding:60px;overflow:visible;}
+.bg-grey{background-color:#f6f6f6;}
+.bg-grey1{background-color:#fff;}
+.jumbotron{background-color:rgb(69, 120, 9);color:#ffffff;padding:100px 25px;font-family:Montserrat, sans-serif;background-image:url(https://firebasestorage.googleapis.com/v0/b/jimsenterprises-bugattiphl.appspot.com/o/jimsBg25P.png?alt=media&token=433d4f81-1005-4d90-8105-1edf63118974);background-repeat:no-repeat;background-position:left 10.5em;background-size:100% 812px;}
+#caption{display:none;}
+#mainbutton, #mainbutton2{padding:12px 12px;font-size:24px;}
+#mainbutton{animation-name: slide2;animation-duration: 3s;background-color:rgba(242, 242, 242, 0.2);border-color:transparent;transition:background-color 1s;text-shadow:2px 2px 4px #000000;}
+@-webkit-keyframes slide2 {0% {opacity: 0;transform: translateX(70%);} 100% {opacity: 1;transform: translateX(0%);}}
+@keyframes slide2 {0% {opacity: 0;transform: translateX(70%);} 100% {opacity: 1;transform: translateX(0%);}}
+#mainbutton2{animation-name: slide3;animation-duration: 3s;background-color:#449d44;transition:background-color 1s;}
+@-webkit-keyframes slide3 {0% {opacity: 0;transform: translateX(-70%);} 100% {opacity: 1;transform: translateX(0%);}}
+@keyframes slide3 {0% {opacity: 0;transform: translateX(-70%);} 100% {opacity: 1;transform: translateX(0%);}}
+#mainbutton:hover, #mainbutton2:hover{background-color:black;border-color:black;}
+.jumbotron h2{font-size:21px;color:#ffffff;text-transform:none;font-weight:200;text-shadow:2px 2px 4px #000000;}
+#details,#details1{font-size:13px;}
+#details > a, #details1 > a{position:relative;color:#fff;text-decoration:none;}
+#details > a:hover, #details1 > a:hover{color:#fff;}
+#details > a:before, #details1 > a:before{content:"";position:absolute;width:100%;height:2px;bottom:0;left:0;background-color:#fff;visibility:hidden;-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transition:all 0.3s ease-in-out 0s;transition:all 0.3s ease-in-out 0s;}
+#details > a:hover:before, #details1 > a:hover:before{visibility:visible;-webkit-transform:scaleX(1);transform:scaleX(1);}
+#details2 > a{position:relative;color:#818181;text-decoration:none;}
+#details2 > a:hover{color:#818181;}
+#details2 > a:before{content:"";position:absolute;width:100%;height:2px;bottom:0;left:0;background-color:#818181;visibility:hidden;-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transition:all 0.3s ease-in-out 0s;transition:all 0.3s ease-in-out 0s;}
+#details2 > a:hover:before{visibility:visible;-webkit-transform:scaleX(1);transform:scaleX(1);}
+.carousel-control.right, .carousel-control.left{background-image:none;color:#abd115;z-index:9997;}
+.carousel-indicators li{border-color:#abd115;}
+.carousel-indicators li.active{background-color:#abd115;}
+.item h4{font-size:19px;line-height:1.375em;font-weight:400;font-style:italic;margin:70px 0;}
+.item span{font-style:normal;}
+#mainCarousel{width:340px;height:340px;margin-left:auto;margin-right:auto;}
+#myCarousel .carousel-indicators{margin-bottom:-5px;}
+.carousel-caption h3{font-size:36px;}
+.carousel-caption p{font-size:18px;font-weight:700;}
+#myCarousel .carousel-caption{background:linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 4%,rgba(0,0,0,0.5) 100%);width:100%;left:0px;right:0px;bottom:0px;text-align:center;padding-top:5px;padding-left:15%;padding-right:15%;}
+.carousel-caption{text-shadow:2px 2px 4px #000000;}
+.caption > p{font-size:18px;}
+.lazy-hidden {opacity: 0;}
+.lazy-loaded {-webkit-transition: opacity 0.3s;-moz-transition: opacity 0.3s;-ms-transition: opacity 0.3s;-o-transition: opacity 0.3s;transition: opacity 0.3s;opacity: 1;}
+#products h3, #products1 h3{font-size:15px;}
+.thumbnail{border:1px solid #fff;border-radius:0;transition:box-shadow 0.5s;}
+.thumbnail:hover{box-shadow:5px 0px 40px rgba(0,0,0, 0.2);}
+div .thumbnail{cursor:pointer;}
+#about button, #about1 button{font-family:"Open Sans",sans-serif;font-size:13px;}
+.col-sm-7 h4{border-left:3px solid black;padding:15px;}
+#jimsLogo{width:57px;height:57px;}
+.navbar{margin-bottom:0;background-color:rgb(69, 120, 9);z-index:9999;border:0;font-size:12px;line-height:1.42857143;letter-spacing:4px;border-radius:0;font-family:Montserrat, sans-serif;}
+.navbar li a, .navbar .navbar-brand{color:#fff !important;}
+.navbar-nav li a:hover, .navbar-nav li.active a{color:#abd115 !important;background-color:#fff !important;}
+.navbar-default .navbar-toggle{border-color:transparent;color:#fff !important;}
+footer .glyphicon-chevron-up{font-size:20px;margin-bottom:20px;color:#8ab818;}
+footer a:visited{text-decoration:none;}
+footer a:hover{text-decoration:none;}
+footer a:active{text-decoration:none;}
+.img-rounded{border:1px solid transparent;margin-top:5px;}
+#partners .col-centered{float:none;margin:0 auto;}
+#partners .carousel-control{width:8%;width:0px;}
+#partners .carousel-control.left,
+#partners .carousel-control.right{margin-right:40px;margin-left:32px;background-image:none;opacity:0;}
+#partners .carousel-control > a > span{color:white;font-size:29px !important;}
+#partners .carousel-col{position:relative;min-height:1px;padding:5px;float:left;}
+.innerCarousel .active > div{display:none;}
+.innerCarousel .active > div:first-child{display:block;}
+.modal{margin-top:3.3em;z-index:9998;}
+.modal-footer{text-align:center;}
+img.img-responsive.center-block{margin-bottom:2.5em;}
+small{text-transform:uppercase;}
+.modal-title{font-size:24px;}
+.modal-body strong{font-weight:400;}
+.relatedProducts{font-family: inherit;font-weight: 500;line-height: 1.1;color: inherit;}
+table.table.table-condensed.table-responsive{margin-bottom:-60px;}
+table th, table tr{text-align:center;}
+.modal{overflow-y:auto;}
+.slideanim {visibility:hidden;}
+.slide {animation-name: slide;-webkit-animation-name: slide;animation-duration: 1s;-webkit-animation-duration: 1s;visibility: visible;}
+@keyframes slide {0% {opacity: 0;transform: translateY(70%);} 100% {opacity: 1;transform: translateY(0%);}}
+@-webkit-keyframes slide {0% {opacity: 0;-webkit-transform: translateY(70%);} 100% {opacity: 1;-webkit-transform: translateY(0%);}}
+@media (max-width:767px){.carousel-inner .active.left{left:-50%;}
+.carousel-inner .active.right{left:50%;}
+.carousel-inner .next{left:50%;}
+.carousel-inner .prev{left:-50%;}
+.carousel-col{width:50%;}
+.active > div:first-child + div{display:block;}
+}
+@media (min-width:768px) and (max-width:991px){.carousel-inner .active.left{left:-50%;}
+.carousel-inner .active.right{left:50%;}
+.carousel-inner .next{left:50%;}
+.carousel-inner .prev{left:-50%;}
+.carousel-col{width:50%;}
+.active > div:first-child + div{display:block;}
+}
+@media (min-width:992px) and (max-width:1199px){.carousel-inner .active.left{left:-33%;}
+.carousel-inner .active.right{left:33%;}
+.carousel-inner .next{left:33%;}
+.carousel-inner .prev{left:-33%;}
+.carousel-col{width:33%;}
+.active > div:first-child + div{display:block;}
+.active > div:first-child + div + div{display:block;}
+}
+@media (min-width:1200px){.carousel-inner .active.left{left:-25%;}
+.carousel-inner .active.right{left:25%;}
+.carousel-inner .next{left:25%;}
+.carousel-inner .prev{left:-25%;}
+.carousel-col{width:25%;}
+.active > div:first-child + div{display:block;}
+.active > div:first-child + div + div{display:block;}
+.active > div:first-child + div + div + div{display:block;}
+}
+@media screen and (min-width:768px){#mainCarousel{height:300px;}
+.mobilePartnersSection{display:none;}
+#partnerLogo{width:204px;height:204px;}
+.col-xs-3{width:196px !important;}
+}
+@media screen and (min-width:1000px){#jimsLogo{width:79px;height:79px;}
+.navbar li a, .navbar .navbar-brand{color:#fff !important;padding-top:27px;padding-bottom:15px;height:79px;transition:.35s ease-in-out;}
+.navbar-nav li a:hover, .navbar-nav li.active a{color:#abd115 !important;background-color:#fff !important;}
+.jumbotron{padding:100px 7.5em;}
+h1{width:17em;}
+#mainButton2{margin-left:10em;}
+#mainButton{margin-right:10em;}
+#bugattiLogo{width:280px;}
+#mainCarousel{height:400px;}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{display:block;width:272px;height:272px;margin-left:auto;margin-right:auto;}
+.carousel-inner>.item>img{display:block;width:340px;height:340px;margin-left:auto;margin-right:auto;}
+.mobilePartnersSection{display:none;}
+#partnerLogo{width:272px;height:272px;}
+#partnerLogo{width:221px;height:115px;}
+.col-xs-3{width:196px !important;}
+}
+@media screen and (max-width:768px){.mainButtons{margin-bottom:12px;}
+.carousel-caption h3{font-size:32px;}
+.carousel-caption p{font-size:14px;font-weight:700;}
+.carousel-inner>.item>a>img, .img-responsive, .thumbnail a>img, .thumbnail>img{display:block;width:204px;height:204px;margin-left:auto;margin-right:auto;}
+.carousel-inner>.item>img{display:block;width:272px;height:272px;margin-left:auto;margin-right:auto;}
+.col-sm-5{margin-bottom:20px;}
+.col-sm-4{text-align:center;margin:25px 0;}
+.btn-lg{width:100%;margin-bottom:35px;}
+.mobilePartnersSection{display:none;}
+#partnerLogo{width:166.5px;height:87.75px;}
+#partners h2{line-height:32px;}
+.col-xs-3{width:196px !important;}
+}
+@media screen and (max-width:480px){#details{margin-top:-10.5px;}
+.jumbotron{background-color:rgb(69, 120, 9);color:#ffffff;padding:100px 25px;font-family:Montserrat, sans-serif;background-image:url(https://firebasestorage.googleapis.com/v0/b/jimsenterprises-bugattiphl.appspot.com/o/PipesBackgroundMobile.png?alt=media&token=309b1c86-0daa-4a76-a0be-d16e6751900c);background-repeat:no-repeat;background-position:left 12.5em;background-size:100% 812px;}
+.carousel-caption h3{font-size:24px;}
+.carousel-caption p{font-size:14px;font-weight:700;}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{display:block;width:204px;height:204px;margin-left:auto;margin-right:auto;}
+.laptopPartnersSection{display:none;}
+.mobilePartnersSection{display:block;}
+#partnerLogo{width:212px;height:106px;margin-top:3em;}
+#jimsLogoPartners{width:198px;height:168px;}
+#partners h2{line-height:32px;}
+.modal .container-fluid{padding:60px 0px;overflow:visible;}
+.col-xs-3{width:196px !important;margin-top:10px;}
+}
