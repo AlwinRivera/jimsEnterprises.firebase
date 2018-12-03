@@ -1,2 +1,2 @@
-# jimsEnterprises.net
-finalWebsite
+# jimsEnterprises.firebase
+finalMockup
